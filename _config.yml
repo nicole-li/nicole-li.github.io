@@ -5,9 +5,8 @@ description     : ""
 keywords        : ""
 url             : https://nicole-li.github.io/ # site url
 baseurl         : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
-cover           : /assets/images/kraken.png # image uri like logo/cover image for site seo
-logo            : /assets/images/kraken.png
-background-image: assets/images/tentacles.png
+cover           : assets/images/kraken.png # image uri like logo/cover image for site seo
+logo            : assets/images/kraken.png
 
 google_analytics  : UA-XXXXX-XX
 twitter_username  : ""

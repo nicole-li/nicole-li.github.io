@@ -6,7 +6,8 @@ Kraken is a minimalistic web presence built using [Jekyll](https://jekyllrb.com/
 
 **Demo:** https://nicole-li.github.io//
 
-![SCREENSHOT](assets/images/screenshot.png)
+![HOME PAGE](assets/images/home.png)
+![PROJECTS](assets/images/projects.png)
 
 ## License
 
