@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Breadcrumbs
-permalink: /breadcrumbs/
+title: Projects
+permalink: /projects/
 ---
 
 - [Wellesley CS Club] [1]
