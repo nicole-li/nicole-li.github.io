@@ -1,11 +1,11 @@
 # Site settings
-title_left    : "Nicole"
-title_right   : "Li" # default: ""
-description   : "Nicole's personal web presence"
+title_left    : "Nicole Li"
+title_right   : "" # default: ""
+description   : "Nicole's web presence"
 keywords      : ""
 url           : https://nicole-li.github.io/ # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
-cover         : "" # image uri like logo/cover image for site seo
+cover         : "assets/KRAKEN.PNG" # image uri like logo/cover image for site seo
 
 google_analytics  : UA-XXXXX-XX
 twitter_username  : ""
