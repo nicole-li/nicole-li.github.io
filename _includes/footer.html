@@ -1,5 +1,11 @@
 <footer class="site-footer">
   <div class="container">
-    <small class="block">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} &middot; &lt;/&gt; Powered by <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://github.com/heiswayi/thinkspace">Thinkspace theme</a></small>
+    <small class="block">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} &middot; &lt;/&gt; Powered by 
+      <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://github.com/heiswayi/thinkspace">Thinkspace theme</a>
+      <label class="switch" style="float: right">
+        <input type="checkbox" onclick="toggleDarkMode()" />
+        <span class="slider round"></span>
+      </label>
+    </small>
   </div>
 </footer>
