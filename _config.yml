@@ -1,7 +1,7 @@
 # Site settings
 title_left    : "Welcome"
 title_right   : "" # default: ""
-description   : "Nicole's web presence"
+description   : ""
 keywords      : ""
 url           : https://nicole-li.github.io/ # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
