@@ -12,13 +12,16 @@
 <script>
     var cursor = true;
     var speed = 800;
+    var c = document.getElementById("cursor");
     setInterval(() => {
-      if (cursor) {
-        document.getElementById("cursor").style.opacity = 0;
-        cursor = false;
-      } else {
-        document.getElementById("cursor").style.opacity = 1;
-        cursor = true;
+      if (c) {
+        if (cursor) {
+          c.style.opacity = 0;
+          cursor = false;
+        } else {
+          c.style.opacity = 1;
+          cursor = true;
+        }
       }
     }, speed);
   </script>
