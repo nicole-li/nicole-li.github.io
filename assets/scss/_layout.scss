@@ -29,9 +29,9 @@ body {
 
 body {
   background-color: $base-background-color;
-  background-image: url("/assets/images/tentacles.png");
-  background-position: bottom right; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  // background-image: url("/assets/images/tentacles.png");
+  // background-position: bottom right; /* Center the image */
+  // background-repeat: no-repeat; /* Do not repeat the image */
 }
 
 hr {
@@ -293,19 +293,5 @@ hr {
       border-bottom: 2px solid transparent;
       color: $blue-color;
     }
-  }
-
-  body {
-    background-color: $base-background-color;
-    background-image: url("/assets/images/tentacles.png");
-    background-position: bottom right; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: 30%;
-  }
-}
-
-@media (max-height: 600px) {
-  body {
-    background-image: none;
   }
 }
