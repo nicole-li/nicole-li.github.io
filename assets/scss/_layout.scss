@@ -29,9 +29,6 @@ body {
 
 body {
   background-color: $base-background-color;
-  // background-image: url("/assets/images/tentacles.png");
-  // background-position: bottom right; /* Center the image */
-  // background-repeat: no-repeat; /* Do not repeat the image */
 }
 
 hr {
@@ -95,7 +92,7 @@ hr {
 
 .logo {
   float: left;
-  margin: 0 0 1em 0;
+  // margin: 0 0 1em 0;
   cursor: pointer;
   letter-spacing: 0.8px;
   font-size: 20px;
@@ -107,8 +104,7 @@ hr {
   }
 
   img {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 20%;
   }
 }
 
