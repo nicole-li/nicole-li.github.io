@@ -296,7 +296,11 @@ hr {
   }
 
   body {
-    background-image: none;
+    background-color: $base-background-color;
+    background-image: url("/assets/images/tentacles.png");
+    background-position: bottom right; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 30%;
   }
 }
 
