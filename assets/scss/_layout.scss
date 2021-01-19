@@ -297,7 +297,12 @@ hr {
   }
 
   body {
-    background-color: $base-background-color;
+    background-image: none;
+  }
+}
+
+@media (max-height: 600px) {
+  body {
     background-image: none;
   }
 }
