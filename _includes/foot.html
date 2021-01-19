@@ -30,20 +30,5 @@
       var element = document.body;
       element.classList.toggle("dark-mode");
       element.querySelector("a").classList.toggle("dark-mode");
-
-      if (element.classList.contains("dark-mode")) {
-        sessionStorage.setItem('dark-mode', 1);
-      } else {
-        sessionStorage.removeItem('dark-mode');
-      }
-    }
-  </script>
-  <script>
-    window.onload = (event) => {
-      var element = document.body;
-      let data = sessionStorage.getItem('dark-mode');
-      if (data && !element.classList.contains("dark-mode")) {
-        toggleDarkMode()
-      }
     }
   </script>
